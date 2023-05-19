@@ -36,5 +36,25 @@ namespace guna0
         {
 
         }
+
+        private void gunaLineTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaGradientPanel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLineTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaPictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
