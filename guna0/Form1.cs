@@ -17,6 +17,8 @@ namespace guna0
             InitializeComponent();
         }
 
+        
+
         private void gunaLabel1_Click(object sender, EventArgs e)
         {
 
@@ -24,7 +26,7 @@ namespace guna0
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void gunaGradientPanel1_Click(object sender, EventArgs e)
@@ -55,6 +57,36 @@ namespace guna0
         private void gunaPictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Username_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel4_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void gunaPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel4_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
