@@ -21,5 +21,30 @@ namespace guna0
         {
 
         }
+
+        private void gunaLineTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Username_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
