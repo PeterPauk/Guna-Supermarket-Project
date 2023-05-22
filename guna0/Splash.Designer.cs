@@ -59,9 +59,10 @@
             this.gunaTransfarantPictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.gunaTransfarantPictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gunaTransfarantPictureBox1.BackgroundImage")));
             this.gunaTransfarantPictureBox1.BaseColor = System.Drawing.Color.Black;
-            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(309, 120);
+            this.gunaTransfarantPictureBox1.Location = new System.Drawing.Point(311, 121);
             this.gunaTransfarantPictureBox1.Name = "gunaTransfarantPictureBox1";
             this.gunaTransfarantPictureBox1.Size = new System.Drawing.Size(160, 112);
+            this.gunaTransfarantPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.gunaTransfarantPictureBox1.TabIndex = 1;
             this.gunaTransfarantPictureBox1.TabStop = false;
             // 

@@ -99,7 +99,7 @@ namespace guna0
             this.Username.AutoSize = true;
             this.Username.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F);
             this.Username.ForeColor = System.Drawing.Color.Brown;
-            this.Username.Location = new System.Drawing.Point(62, 275);
+            this.Username.Location = new System.Drawing.Point(99, 276);
             this.Username.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(134, 34);
@@ -122,7 +122,7 @@ namespace guna0
             this.gunaButton1.Image = null;
             this.gunaButton1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(193, 593);
+            this.gunaButton1.Location = new System.Drawing.Point(193, 582);
             this.gunaButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Maroon;
@@ -146,12 +146,12 @@ namespace guna0
             this.gunaLineTextBox1.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.gunaLineTextBox1.ForeColor = System.Drawing.Color.Black;
             this.gunaLineTextBox1.LineColor = System.Drawing.Color.IndianRed;
-            this.gunaLineTextBox1.Location = new System.Drawing.Point(68, 312);
+            this.gunaLineTextBox1.Location = new System.Drawing.Point(105, 326);
             this.gunaLineTextBox1.Name = "gunaLineTextBox1";
             this.gunaLineTextBox1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.gunaLineTextBox1.PasswordChar = '\0';
             this.gunaLineTextBox1.SelectedText = "";
-            this.gunaLineTextBox1.Size = new System.Drawing.Size(439, 52);
+            this.gunaLineTextBox1.Size = new System.Drawing.Size(373, 44);
             this.gunaLineTextBox1.TabIndex = 6;
             this.gunaLineTextBox1.TextOffsetX = 10;
             this.gunaLineTextBox1.TextChanged += new System.EventHandler(this.gunaLineTextBox1_TextChanged);
@@ -188,7 +188,7 @@ namespace guna0
             this.gunaComboBox1.Items.AddRange(new object[] {
             "Admin",
             "Seller"});
-            this.gunaComboBox1.Location = new System.Drawing.Point(68, 178);
+            this.gunaComboBox1.Location = new System.Drawing.Point(105, 187);
             this.gunaComboBox1.Name = "gunaComboBox1";
             this.gunaComboBox1.OnHoverItemBaseColor = System.Drawing.Color.DarkRed;
             this.gunaComboBox1.OnHoverItemForeColor = System.Drawing.Color.White;
@@ -201,7 +201,7 @@ namespace guna0
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F);
             this.gunaLabel3.ForeColor = System.Drawing.Color.Brown;
-            this.gunaLabel3.Location = new System.Drawing.Point(62, 141);
+            this.gunaLabel3.Location = new System.Drawing.Point(99, 139);
             this.gunaLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel3.Name = "gunaLabel3";
             this.gunaLabel3.Size = new System.Drawing.Size(145, 34);
@@ -214,7 +214,7 @@ namespace guna0
             this.gunaLabel2.AutoSize = true;
             this.gunaLabel2.Font = new System.Drawing.Font("Microsoft PhagsPa", 16F);
             this.gunaLabel2.ForeColor = System.Drawing.Color.Brown;
-            this.gunaLabel2.Location = new System.Drawing.Point(62, 430);
+            this.gunaLabel2.Location = new System.Drawing.Point(99, 431);
             this.gunaLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(127, 34);
@@ -229,12 +229,12 @@ namespace guna0
             this.gunaLineTextBox2.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.gunaLineTextBox2.ForeColor = System.Drawing.Color.Black;
             this.gunaLineTextBox2.LineColor = System.Drawing.Color.IndianRed;
-            this.gunaLineTextBox2.Location = new System.Drawing.Point(68, 467);
+            this.gunaLineTextBox2.Location = new System.Drawing.Point(105, 488);
             this.gunaLineTextBox2.Name = "gunaLineTextBox2";
             this.gunaLineTextBox2.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.gunaLineTextBox2.PasswordChar = '\0';
             this.gunaLineTextBox2.SelectedText = "";
-            this.gunaLineTextBox2.Size = new System.Drawing.Size(439, 52);
+            this.gunaLineTextBox2.Size = new System.Drawing.Size(373, 44);
             this.gunaLineTextBox2.TabIndex = 14;
             this.gunaLineTextBox2.TextOffsetX = 10;
             // 
