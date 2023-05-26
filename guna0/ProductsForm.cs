@@ -46,5 +46,10 @@ namespace guna0
         {
 
         }
+
+        private void gunaButton7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
