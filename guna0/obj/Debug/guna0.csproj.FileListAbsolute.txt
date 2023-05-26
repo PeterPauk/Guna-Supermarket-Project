@@ -25,3 +25,4 @@ C:\Users\ASUS\Desktop\C++ a C#\C# projects\GunaProgram\guna0\obj\Debug\guna0.pdb
 C:\Users\ASUS\Desktop\C++ a C#\C# projects\GunaProgram\guna0\obj\Debug\guna0.Splash.resources
 C:\Users\ASUS\Desktop\C++ a C#\C# projects\GunaProgram\guna0\obj\Debug\guna0.ProductsForm.resources
 C:\Users\ASUS\Desktop\C++ a C#\C# projects\GunaProgram\guna0\obj\Debug\guna0.SellerForm.resources
+C:\Users\ASUS\Desktop\C++ a C#\C# projects\GunaProgram\guna0\obj\Debug\guna0.CategoryFormcs.resources
