@@ -35,5 +35,33 @@ namespace guna0
                 MessageBox.Show(ex.Message);
             }
         }
+        private void populate()
+        {
+            Con.Open();
+            string query = "select * from CategoryTable";
+            SqlDataAdapter sda = new SqlDataAdapter(query, Con);
+            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            CatDGV.DataSource = ds.Tables[0];
+            Con.Close();
+        }
+
+        private void CategoryFormcs_Load(object sender, EventArgs e)
+        {
+            populate();
+        }
+
+        private void CatDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            CatIdTb.Text = CatDGV.SelectedRows[0].Cells[0].Value.ToString();
+            CatNameTb.Text = CatDGV.SelectedRows[0].Cells[1].Value.ToString();
+            CatDesTb.Text = CatDGV.SelectedRows[0].Cells[2].Value.ToString();
+        }
+
+        private void gunaButton6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
