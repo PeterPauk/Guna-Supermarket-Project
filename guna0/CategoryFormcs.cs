@@ -30,6 +30,7 @@ namespace guna0
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Category added successfully!");
                 Con.Close();
+                populate();
             }catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
@@ -61,7 +62,27 @@ namespace guna0
 
         private void gunaButton6_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                if(CatIdTb.Text == "")
+                {
+                    MessageBox.Show("Select The Product to Delete");
+                }
+                else
+                {
+                    Con.Open();
+                    string query = "delete from CategoryTable where CatId = " + CatIdTb.Text + "";
+                    SqlCommand cmd = new SqlCommand(query, Con);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Category Deleted");
+                    Con.Close();
+                    populate();
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
