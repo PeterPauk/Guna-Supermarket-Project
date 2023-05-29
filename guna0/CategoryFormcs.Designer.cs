@@ -245,6 +245,7 @@
             this.CatDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.CatDGV.Location = new System.Drawing.Point(242, 361);
             this.CatDGV.Name = "CatDGV";
+            this.CatDGV.RowHeadersVisible = false;
             this.CatDGV.RowHeadersWidth = 51;
             this.CatDGV.RowTemplate.Height = 24;
             this.CatDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -303,6 +304,7 @@
             this.gunaButton4.TabIndex = 24;
             this.gunaButton4.Text = "EDIT";
             this.gunaButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton4.Click += new System.EventHandler(this.gunaButton4_Click);
             // 
             // gunaButton6
             // 
@@ -445,6 +447,7 @@
             this.Controls.Add(this.gunaPanel1);
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.gunaTransfarantPictureBox1);
+            this.MaximizeBox = false;
             this.Name = "CategoryFormcs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CategoryFormcs";

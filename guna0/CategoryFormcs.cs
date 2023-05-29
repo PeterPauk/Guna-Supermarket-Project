@@ -31,7 +31,11 @@ namespace guna0
                 MessageBox.Show("Category added successfully!");
                 Con.Close();
                 populate();
-            }catch(Exception ex)
+                CatDesTb.Text = "";
+                CatNameTb.Text = "";
+                CatIdTb.Text = "";
+            }
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -78,6 +82,32 @@ namespace guna0
                     Con.Close();
                     populate();
                 }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void gunaButton4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(CatIdTb.Text == "" || CatNameTb.Text == "" || CatDesTb.Text == "")
+                {
+                    MessageBox.Show("Missing information.");
+                }
+                else
+                {
+                Con.Open();
+                string query = "update CategoryTable set CatName ='" + CatNameTb.Text + "', CatDes = '" + CatDesTb.Text + "' where CatId = " + CatIdTb.Text + "";
+                SqlCommand cmd = new SqlCommand(query, Con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Category successfully updated.");
+                Con.Close();
+                 populate();
+                }
+
             }
             catch(Exception ex)
             {
