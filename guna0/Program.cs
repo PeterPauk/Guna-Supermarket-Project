@@ -16,7 +16,7 @@ namespace guna0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CategoryFormcs());
+            Application.Run(new ProductsForm());
         }
     }
 }

@@ -107,12 +107,18 @@ namespace guna0
                 Con.Close();
                  populate();
                 }
-
             }
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            ProductsForm products = new ProductsForm();
+            products.Show();
+            this.Hide();
         }
     }
 }
